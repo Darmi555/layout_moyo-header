@@ -31,16 +31,11 @@ body {
 }
 
 .navigation__item:not(:last-child) {
-  display: flex;
-  box-sizing: border-box;
   margin-right: 20px;
-  justify-content: center;
-  align-items: center;
 }
 
 .navigation__link {
   display: flex;
-  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
