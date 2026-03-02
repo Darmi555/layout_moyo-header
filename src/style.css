@@ -1,19 +1,21 @@
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
   padding: 0;
+  font-family: Roboto, sans-serif;
+}
 
+:root {
   --blue-color: #00acdc;
 }
 
 .header {
   display: flex;
+  box-sizing: border-box;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: Roboto, sans-serif;
 }
 
 .header__logo {
@@ -23,11 +25,14 @@
 
 .navigation__list {
   display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .navigation__item:not(:last-child) {
   display: flex;
+  box-sizing: border-box;
   margin-right: 20px;
   justify-content: center;
   align-items: center;
@@ -35,6 +40,7 @@
 
 .navigation__link {
   display: flex;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
